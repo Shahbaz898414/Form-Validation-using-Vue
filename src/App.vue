@@ -43,6 +43,8 @@ VeeValidate.Validator.extend('passphrase', {
     validate: value => value.toUpperCase() == 'Demogorgon'.toUpperCase()
 });
 
+
+
 export default {
   data () {
     return {
